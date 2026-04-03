@@ -2,33 +2,26 @@
 
 整理后的对外交付产物仓库。
 
-## 内容
+## Contents
 
-交付文件已放在仓库根目录。
+Final deliverables are stored at the repository root.
 
-### A100 / 太空服务器
-- `太空服务器（A100）技术说明书.docx`
-  - A100 太空服务器技术说明文档
-  - 包含运行环境、硬件规格、软件架构、系统安装、应用部署、上星服务与典型场景等内容
-- `太空服务器（A100）矢量架构图.svg`
-  - A100 太空服务器矢量架构图
+### A100 / Space Server
+- `A100-Space-Server-Technical-Specification.docx`
+  - Technical specification for the A100 space server
+  - Covers runtime environment, hardware specs, software architecture, system installation, application deployment, spaceborne services, and typical scenarios
+- `A100-Space-Server-Vector-Architecture-Diagram.svg`
+  - Vector architecture diagram for the A100 space server
 
 ### B100 / Orin
-- `B100（Orin）技术说明书.docx`
-  - B100（Orin）技术说明文档
-  - 包含硬件框图、软件架构、应用部署、基础服务、上行服务、场景举例与 FAQ 等内容
-- `B100（Orin）矢量架构图.svg`
-  - B100（Orin）矢量架构图
+- `B100-Orin-Technical-Specification.docx`
+  - Technical specification for the B100 (Orin) platform
+  - Covers hardware block diagram, software architecture, application deployment, foundational services, uplink services, example scenarios, and FAQ
+- `B100-Orin-Vector-Architecture-Diagram.svg`
+  - Vector architecture diagram for the B100 (Orin) platform
 
-## 说明
+## Notes
 
-- 仓库只保留最终输出文件与必要说明
-- OpenClaw 工作区文件、记忆文件和中间提取文本已通过 `.gitignore` 排除
-- `extracted_*.txt` 为本地处理中间产物，不纳入版本库
-
-## 建议用法
-
-如果后续还要继续整理，可以按这个结构扩展：
-
-- 仓库根目录：最终交付文件
-- `README.md`：文件说明、版本说明、来源说明
+- The repository keeps only final deliverables and essential documentation
+- OpenClaw workspace files, memory files, and intermediate extracted text are excluded via `.gitignore`
+- `extracted_*.txt` files are local intermediate artifacts and are not versioned
