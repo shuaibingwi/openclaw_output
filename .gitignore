@@ -1,0 +1,14 @@
+# OpenClaw workspace/private assistant files
+.openclaw/
+AGENTS.md
+BOOTSTRAP.md
+HEARTBEAT.md
+IDENTITY.md
+SOUL.md
+TOOLS.md
+USER.md
+MEMORY.md
+memory/
+
+# Local extracted/intermediate text artifacts
+extracted_*.txt
